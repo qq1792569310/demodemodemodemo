@@ -1,0 +1,4 @@
+LIBRARY ffi.dll
+EXPORTS
+	luaopen_ffi
+	luaopen_ffi2

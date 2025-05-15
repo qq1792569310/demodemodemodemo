@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="luaffifb">
+      <UniqueIdentifier>{e015cecb-1de1-4165-ad0e-92cdf6fabc92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lua-5.3.6">
+      <UniqueIdentifier>{8ad628f0-468d-4421-bfc8-934287f23550}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minhook">
+      <UniqueIdentifier>{a1a1b6f6-97be-445a-8ffd-27ba3024b2bc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lua-5.3.6\lapi.c">
+      <Filter>lua-5.3.6</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.3.6\lauxlib.c">
+      <Filter>lua-5.3.6</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.3.6\lbaselib.c">
+      <Filter>lua-5.3.6</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.3.6\lbitlib.c">
+      <Filter>lua-5.3.6</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.3.6\lcode.c">
+      <Filter>lua-5.3.6</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.3.6\lcorolib.c">
+      <Filter>lua-5.3.6</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.3.6\lctype.c">
+      <Filter>lua-5.3.6</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.3.6\ldblib.c">
+      <Filter>lua-5.3.6</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.3.6\ldebug.c">
+      <Filter>lua-5.3.6</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.3.6\ldo.c">
+      <Filter>lua-5.3.6</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.3.6\ldump.c">
+      <Filter>lua-5.3.6</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.3.6\lfunc.c">
+      <Filter>lua-5.3.6</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.3.6\lgc.c">
+      <Filter>lua-5.3.6</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.3.6\linit.c">
+      <Filter>lua-5.3.6</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.3.6\liolib.c">
+      <Filter>lua-5.3.6</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.3.6\llex.c">
+      <Filter>lua-5.3.6</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.3.6\lmathlib.c">
+      <Filter>lua-5.3.6</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.3.6\lmem.c">
+      <Filter>lua-5.3.6</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.3.6\loadlib.c">
+      <Filter>lua-5.3.6</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.3.6\lobject.c">
+      <Filter>lua-5.3.6</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.3.6\lopcodes.c">
+      <Filter>lua-5.3.6</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.3.6\loslib.c">
+      <Filter>lua-5.3.6</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.3.6\lparser.c">
+      <Filter>lua-5.3.6</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.3.6\lstate.c">
+      <Filter>lua-5.3.6</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.3.6\lstring.c">
+      <Filter>lua-5.3.6</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.3.6\lstrlib.c">
+      <Filter>lua-5.3.6</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.3.6\ltable.c">
+      <Filter>lua-5.3.6</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.3.6\ltablib.c">
+      <Filter>lua-5.3.6</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.3.6\ltm.c">
+      <Filter>lua-5.3.6</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.3.6\lundump.c">
+      <Filter>lua-5.3.6</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.3.6\lutf8lib.c">
+      <Filter>lua-5.3.6</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.3.6\lvm.c">
+      <Filter>lua-5.3.6</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.3.6\lzio.c">
+      <Filter>lua-5.3.6</Filter>
+    </ClCompile>
+    <ClCompile Include="luaffifb\call.c">
+      <Filter>luaffifb</Filter>
+    </ClCompile>
+    <ClCompile Include="luaffifb\ffi.c">
+      <Filter>luaffifb</Filter>
+    </ClCompile>
+    <ClCompile Include="luaffifb\parser.c">
+      <Filter>luaffifb</Filter>
+    </ClCompile>
+    <ClCompile Include="luaffifb\ctype.c">
+      <Filter>luaffifb</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c" />
+    <ClCompile Include="minhook\src\buffer.c">
+      <Filter>minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\src\hde\hde32.c">
+      <Filter>minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\src\hde\hde64.c">
+      <Filter>minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\src\hook.c">
+      <Filter>minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\src\trampoline.c">
+      <Filter>minhook</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lua-5.3.6\lapi.h">
+      <Filter>lua-5.3.6</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.3.6\lauxlib.h">
+      <Filter>lua-5.3.6</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.3.6\lcode.h">
+      <Filter>lua-5.3.6</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.3.6\lctype.h">
+      <Filter>lua-5.3.6</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.3.6\ldebug.h">
+      <Filter>lua-5.3.6</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.3.6\ldo.h">
+      <Filter>lua-5.3.6</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.3.6\lfunc.h">
+      <Filter>lua-5.3.6</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.3.6\lgc.h">
+      <Filter>lua-5.3.6</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.3.6\llex.h">
+      <Filter>lua-5.3.6</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.3.6\llimits.h">
+      <Filter>lua-5.3.6</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.3.6\lmem.h">
+      <Filter>lua-5.3.6</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.3.6\lobject.h">
+      <Filter>lua-5.3.6</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.3.6\lopcodes.h">
+      <Filter>lua-5.3.6</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.3.6\lparser.h">
+      <Filter>lua-5.3.6</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.3.6\lprefix.h">
+      <Filter>lua-5.3.6</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.3.6\lstate.h">
+      <Filter>lua-5.3.6</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.3.6\lstring.h">
+      <Filter>lua-5.3.6</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.3.6\ltable.h">
+      <Filter>lua-5.3.6</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.3.6\ltm.h">
+      <Filter>lua-5.3.6</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.3.6\lua.h">
+      <Filter>lua-5.3.6</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.3.6\luaconf.h">
+      <Filter>lua-5.3.6</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.3.6\lualib.h">
+      <Filter>lua-5.3.6</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.3.6\lundump.h">
+      <Filter>lua-5.3.6</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.3.6\lvm.h">
+      <Filter>lua-5.3.6</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.3.6\lzio.h">
+      <Filter>lua-5.3.6</Filter>
+    </ClInclude>
+    <ClInclude Include="luaffifb\call_x86.h">
+      <Filter>luaffifb</Filter>
+    </ClInclude>
+    <ClInclude Include="luaffifb\ffi.h">
+      <Filter>luaffifb</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\include\MinHook.h">
+      <Filter>minhook</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ffi.def" />
+  </ItemGroup>
+</Project>
